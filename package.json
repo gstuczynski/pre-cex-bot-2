@@ -1,0 +1,24 @@
+{
+  "name": "listing-bot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node binance.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "binance-api-node": "^0.11.17",
+    "ethers": "^5.4.6",
+    "follow-redirects": "^1.14.4",
+    "jquery": "^3.6.0",
+    "jsdom": "^17.0.0",
+    "node-binance-api": "^0.13.0",
+    "pm2": "^5.1.1",
+    "rss-parser": "^3.12.0"
+  }
+}
